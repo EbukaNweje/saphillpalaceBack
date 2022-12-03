@@ -37,7 +37,7 @@ const signUp = async(req, res, next)=>{
         if (checkUser) {
             return res.status(400).json({
             errors: [{
-                msg: 'User already exists',s
+                msg: 'User already exists',
             }, ],
             });
         }
